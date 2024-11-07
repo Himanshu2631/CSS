@@ -1,0 +1,48 @@
+a[target="_top"]{
+    background-color: yellow;
+}
+.class1 .class2 .class3 h2 {
+    padding: 5px;
+    background-color: red;
+    height: 20px;
+}
+div[data-color-value="yellow"] {
+    color:yellow;
+}
+
+[class^="foo-"]{
+    color: red;
+}
+
+[class$="file"]{
+    color: blueviolet;
+}
+div span{
+    color:orangered;
+}
+a ~ span{
+    color: burlywood;
+}
+
+p + p{
+    color:aqua;
+}
+
+p ~ p{
+    color: red;
+}
+
+.important{
+    color: orange;
+}
+.warning{
+    color:darkgreen
+}
+
+p: last-of-type{
+    background: #c5cae9
+}
+h1: last-of-type{
+    background: #cddc39
+}
+
